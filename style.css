@@ -1,13 +1,37 @@
-.title {
-}
-
-.centered {
-	text-align: center;
+.grid-container {
+	display: flex;
+	flex-direction: column;
 }
 
 .top {
-	display: flex;
 	background-color: rgb(176, 133, 216);
-	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	background-color: aqua;
 	padding: 50px;
+}
+
+.websiteContent {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: green;
+	padding: 50px;
+	height: 90%;
+}
+
+.lodeMoreDiv {
+	display: flex;
+	justify-content: center;
+	background-color: red;
+	padding: 50px;
+	height: 90%;
+}
+
+.hidden {
+	display: none;
 }

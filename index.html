@@ -5,19 +5,33 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+
+		<!-- Linking style.css -->
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<div class="top">
-			<h1 class="title centered">TITLE HERE</h1>
-			<div class="centered">
-				<form action="hello" method="GET">
-					<input type="text" />
-					<button>Search</button>
+		<div class="grid-container">
+			<div class="top">
+				<h1 class="centered">TITLE HERE</h1>
+			</div>
+
+			<div class="form">
+				<form id="giftForm">
+					<input name="giftName" required="required" type="text" />
+					<button type="submit">Search</button>
 				</form>
+			</div>
+
+			<div class="websiteContent">
+				<h1></h1>
+			</div>
+
+			<div class="lodeMoreDiv">
+				<button class="lodeMore hidden">Load More Gifts</button>
 			</div>
 		</div>
 
+		<!-- Linking script.js -->
 		<script src="script.js"></script>
 	</body>
 </html>
