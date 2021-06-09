@@ -1,0 +1,13 @@
+.title {
+}
+
+.centered {
+	text-align: center;
+}
+
+.top {
+	display: flex;
+	background-color: rgb(176, 133, 216);
+	flex-direction: column;
+	padding: 50px;
+}
